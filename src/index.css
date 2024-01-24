@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: dark;
+}
+
+.main-container {
+  @apply mx-auto max-w-[1320px] px-[20px];
+}
+
+a.active::before {
+  opacity: 1;
+  background: white;
+}
